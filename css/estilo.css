@@ -1,0 +1,246 @@
+body {
+  color: #333333;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-serif;
+}
+
+.container {
+  margin: 10px auto;
+  width: 940px;
+}
+
+header {
+  position: relative;
+}
+
+.menu-setores {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.menu-setores ul {
+  font-size: 15px;
+}
+
+.menu-setores ul li {
+    display: inline;
+    margin: 0 0 0 20px;
+}
+
+.menu-setores a {
+   color: #003366;
+}
+
+.busca, 
+.menu-departamentos {
+  background-color: #dcdcdc;
+  font-weight: bold;
+  text-transform: uppercase;
+  
+  margin-right: 10px;
+  width: 230px;
+}
+
+.busca h2,
+.busca form,
+.menu-departamentos h2 {
+  margin: 10px;
+}
+
+.menu-departamentos ul li {
+  background-color: white;
+  margin-bottom: 1px;
+  padding: 5px 10px;
+}
+
+.menu-departamentos ul li a {
+  color: #333333;
+  text-decoration: none;
+}
+
+.busca, 
+.menu-departamentos {
+  float: left;
+}
+
+.menu-departamentos {
+    clear: left;
+}
+
+.menu-departamentos {
+  margin-top: 10px;
+  padding-bottom: 10px;
+}
+
+.busca input {
+  vertical-align: middle;
+}
+
+.busca input[type=search] {
+  width: 170px;
+}
+.menu-departamentos {
+
+	background-color: #dcdcdc;
+	font-weight: bold;
+	text-transform: uppercase;
+
+	margin-right: 1px;
+	width: 230px;
+}
+
+.menu-departamentos li ul {
+
+	display: none;
+}
+
+.menu-departamentos li:hover ul {
+
+	display: block;
+}
+
+.menu-departamentos ul ul li {
+
+	background-color: #dcdcdc;
+}
+.menu-departamentos li {
+
+	background-color: white;
+	margin-bottom: 1px;
+	padding: 17px 10px;
+}
+
+.menu-departamentos a {
+
+	color: #333333;
+	text-decoration: none;
+}
+
+.painel {
+
+	margin: 10px 0;
+	padding: 10.5px;
+	width: 449px;
+}
+
+.novidades {
+
+	float: left;
+}
+
+.mais-vendidos {
+
+	float: left;
+}
+
+.painel li {
+
+	display: inline-block;
+	vertical-align: top;
+	width: 140px;
+	margin: 2px;
+	padding-bottom: 10px;
+}
+
+.painel h2{
+
+	font-size: 24px;
+	font-weight: bold;
+	text-transform: uppercase;
+
+	margin-bottom: 11px;
+}
+
+.painel a{
+
+	color: #335;
+	font-size: 15px;
+	text-align: center;
+	text-decoration: none;
+}
+
+.novidades {
+
+	background-color: #f5dcdd;
+	background: linear-gradient(#F0FFFF, #DCDCDC);
+}
+
+.mais-vendidos {
+
+	background-color: #f5dcdd;
+	background: linear-gradient(#F0FFFF, #DCDCDC);	
+}
+
+footer {
+
+	background-image: url(../img/fundo-rodape.png);
+	clear: both;
+	padding: 20px 0;
+}
+
+.social li a {
+
+	height: 32px;
+	width: 32px;
+
+	display: block;
+	text-indent: -9999px;
+
+}
+
+.social a[href*="facebook.com"] {
+	background-image: url(../img/facebook.png);
+}
+
+.social a[href*="twitter.com"] {
+	background-image: url(../img/twitter.png);
+}
+
+footer .container {
+
+	position: relative;
+}
+
+.social {
+
+	position: absolute;
+	top: 10px;
+	right: 0;
+}
+
+.social li {
+
+	float: left;
+	margin-left: 20px;
+}
+
+.painel {
+
+	border-radius: 1px;
+	box-shadow: inset 1px 1px 0px #999;
+}
+
+.painel h2 {
+
+	text-shadow: 1px 1px 2px rgba(192,192,192,0.6);
+}
+
+.busca {
+
+	border-top-left-radius: 8px;
+	border-bottom-right-radius: 4px;
+}
+
+.painel li:hover {
+	background-color:  rgba(192,192,192,0.6);
+	box-shadow: 0 0 5px #444;
+
+	-webkit-transition: box-shadow 0.9s;
+			transition: box-shadow 0.1s;
+	-webkit-transform: scale(1) rotate(0deg);
+			transform: scale(1) rotate(0deg);	
+
+}
+
+
+
